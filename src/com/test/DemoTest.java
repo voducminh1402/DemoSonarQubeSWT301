@@ -32,7 +32,7 @@ public class DemoTest {
 	}
 	
 	public String getInfo() {
-		return getName() + "is " + getAge() + " years old";
+		return getName() + " is " + getAge() + " years old";
 	}
 	
 	public static void main(String[] args) {
