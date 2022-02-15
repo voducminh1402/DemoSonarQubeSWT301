@@ -35,6 +35,13 @@ public class DemoTest {
 		return getName() + " is " + getAge() + " years old";
 	}
 	
+	public void testDemo1() {
+		String tmp = "temp";
+		String main = "main";
+		
+		System.out.println(main);
+	}
+	
 	public static void main(String[] args) {
 		DemoTest demo = new DemoTest();
 		System.out.println(demo.getInfo());
