@@ -45,6 +45,7 @@ public class DemoTest {
 	public static void main(String[] args) {
 		DemoTest demo = new DemoTest();
 		System.out.println(demo.getInfo());
+		demo.testDemo1();
 	}
 	
 }
