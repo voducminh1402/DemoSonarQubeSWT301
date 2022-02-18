@@ -35,7 +35,7 @@ public class DemoTest {
 		return getName() + " is " + getAge() + " years old";
 	}
 	
-	public void testBug() {
+	public static void testBug() {
 		for (;;) {
 			System.out.println("Hello bug");
 		}
@@ -52,6 +52,7 @@ public class DemoTest {
 		DemoTest demo = new DemoTest();
 		System.out.println(demo.getInfo());
 		demo.testDemo1();
+		testBug();
 	}
 	
 }
